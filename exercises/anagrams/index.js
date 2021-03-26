@@ -24,7 +24,7 @@ function anagrams(stringA, stringB) {
       return false;
     }
   }
-
+  // if passes all tests
   return true;
 }
 
