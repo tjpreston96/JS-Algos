@@ -21,7 +21,7 @@ function maxChar(str) {
 
   //   iterate charMap to find most frequently used value
   //   'for in' syntax (ES2015) because charMap is an object
-  for (let char in str) {
+  for (let char in charMap) {
     if (charMap[char] > max) {
       max = charMap[char];
       maxChar = char;
